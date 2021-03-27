@@ -1,0 +1,9 @@
+name: ngsa-cosmos
+namespace: ngsa
+imagename: ghcr.io/retaildevcrews/ngsa-app
+imagetag: beta
+
+targets:
+  - azure
+#  - do
+#  - gcp
