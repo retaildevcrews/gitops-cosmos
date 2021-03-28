@@ -5,5 +5,5 @@
     "imagetag": "beta",
     "targets": []
 
-    // possible targets ["azure", "do", "gcp"]
+    // valid targets ["azure", "do", "gcp"]
 }
