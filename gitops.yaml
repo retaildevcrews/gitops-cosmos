@@ -20,11 +20,11 @@ spec:
           imagePullPolicy: Always
 
           args: 
-          - -m
+          - --no-cache
           - --prometheus
-          - -z
+          - --zone
           - {{gitops.Config.Zone}}
-          - -r
+          - --region
           - {{gitops.Config.Region}}
 
           ports:
