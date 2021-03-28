@@ -1,4 +1,4 @@
-name: Build NGSA-App
+name: Deploy NGSA-Cosmos
 
 on:
   push:
@@ -37,5 +37,5 @@ jobs:
         dotnet run
         git pull
         git add .
-        git commit -am "gitops deployment"
+        git commit -am "gitops ngsa-cosmos deployment"
         git push
