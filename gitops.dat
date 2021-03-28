@@ -4,6 +4,6 @@ imagename: ghcr.io/retaildevcrews/ngsa-app
 imagetag: beta
 
 targets:
-  - azure
-  - do
-  - gcp
+#  - azure
+#  - do
+#  - gcp
