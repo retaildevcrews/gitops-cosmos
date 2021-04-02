@@ -1,9 +1,9 @@
 {
     "name": "ngsa-cosmos",
     "namespace": "ngsa",
-    "imagename": "ghcr.io/retaildevcrews/ngsa-app",
-    "imagetag": "beta",
-    "targets": []
+    "imageName": "ghcr.io/retaildevcrews/ngsa-app",
+    "imageTag": "beta",
+    "targets": ["azure", "do", "gcp"]
 
     // valid targets ["azure", "do", "gcp"]
 }
